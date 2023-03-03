@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* LIGHT MODE Variables */
+:root{
+  --color-bg: #FBFBFB;
+  --color-header: #7E74F1;
+  --color-paragraph:  #000;
+  --color-icon:  #7E74F1;
+  --color-button:  #7E74F1;
+  --color-card:  #F5F3FE;
+  --color-bg-second:  #1D4645;
+
+  /* ======= neumorphic ======== */
+  --neu-light: rgba(211, 211, 211, 0.2);
+  --neu-dark: rgba(0,0,0,.2);
+}
+  
+  /* ========= Dark Theme Variable ========== */
+[data-theme = "dark"]{
+  --color-bg: #000;
+  --color-header: #7E74F1;
+  --color-paragraph:  #FFFFFF;
+  --color-icon:  #7E74F1;
+  --color-button:  #7E74F1;
+  --color-card:  #F5F3FE;
+  --color-bg-second:  #000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.app{
+  background: var(--color-bg);
+   color: var(--color-paragraph); 
+   
+}
+
+html, body, .app{
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 1080px){
+  html, 
+  body,
+  .app{
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .app::webkit-scrollbar{
+    display: none;
+  }
+}
+

@@ -1,0 +1,73 @@
+.navbar-brand {
+width: 42px;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+color: var(--color-paragraph);
+}
+
+.nav-link {
+ font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: -0.05em;
+color: var(--color-paragraph);
+}
+
+.contact-link {
+ display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 5px;
+width: 133px;
+height: 40px;
+background: var(--color-button);
+border-radius: 4px; 
+width: 133px;
+height: 40px;
+font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+text-decoration: none;
+/* White */
+
+color: #FFFFFF;
+}
+
+.contact_cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 20px;
+  width: 209px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.toggle_cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 4px;
+  width: 56px;
+  height: 32px;
+  background: #FFEC70;
+  border-radius: 32px;
+}
+
+
+
