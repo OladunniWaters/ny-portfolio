@@ -1,5 +1,6 @@
 import Homepage from "./home/Homepage";
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 //import "./App.css";
 import {BrowserRouter as HashRouter, Routes, Route} from "react-router-dom";
 import {useState} from "react";
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
+        <Footer />
     </HashRouter> 
     </div>
   );

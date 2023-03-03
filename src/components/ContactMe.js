@@ -4,6 +4,8 @@ import contactImage from '../assets/me.png'
 
 function ContactMe() {
   return (
+  
+  <div className='container ContactMe'>
     <div className='contact_container'>
         <div className='contactImage'>
                <div className='cute_astronaut_circle'></div>
@@ -29,6 +31,7 @@ function ContactMe() {
       </form>
 
     </div>
+</div>   
   );
 }
 

@@ -4,7 +4,7 @@ import Portfolio from '../components/Portfolio';
 import Skills from '../components/Skills';
 import AboutMe from '../components/AboutMe';
 import ContactMe from '../components/ContactMe';
-import Footer from '../components/Footer';
+//import Footer from '../components/Footer';
 
 function Homepage() {
   return (
@@ -14,7 +14,7 @@ function Homepage() {
        <Portfolio />
        <AboutMe />
        <ContactMe />
-       <Footer />
+       
     </div>
   );
 }

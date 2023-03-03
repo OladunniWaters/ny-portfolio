@@ -10,24 +10,24 @@ function Footer() {
                 <div class="col-lg-4 col-md-6">
                     <h5 class="h1">FIGMA LAND</h5>
                     <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                    <p class="small mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">OladunniWaters</a></p>
+                    <p class="small mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">OladunniWaters</a></p>
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <h5 class=" mb-3">Quick links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Get started</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">Home</a></li>
+                        <li><a href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">About</a></li>
+                        <li><a href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">Get started</a></li>
+                        <li><a href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <h5 class="text-white mb-3">Quick links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Get started</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">Home</a></li>
+                        <li><a href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">About</a></li>
+                        <li><a href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">Get started</a></li>
+                        <li><a href="https://twitter.com/OladunniCath" target="_blank" rel="noreferrer">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6">
