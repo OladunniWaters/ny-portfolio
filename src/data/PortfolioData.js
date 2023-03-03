@@ -66,28 +66,7 @@ const PortfolioData = [
       api: "Mealdb",
      }
     },
-     {
-    id:7,
-    title:"Recipe webapp",
-    desc:"A website that allows you to source easy and mouthering dishes",
-    image:"",
-    tools: {
-      javascript: "React JS",
-      cssFramework: "Tailwind",
-      api: "Mealdb",
-     }
-    },
-     {
-    id:8,
-    title:"Recipe webapp",
-    desc:"A website that allows you to source easy and mouthering dishes",
-    image:"",
-    tools: {
-      javascript: "React JS",
-      cssFramework: "Tailwind",
-      api: "Mealdb",
-     }
-    },
+
     ]
   export default PortfolioData 
   
