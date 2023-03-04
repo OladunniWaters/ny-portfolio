@@ -1,5 +1,5 @@
 import "./AboutMe.scss";
-import AboutImage from '../assets/me.png'
+import AboutImage from '../assets/about1.png'
 
 
 
