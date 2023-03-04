@@ -1,24 +1,4 @@
-.Content {
-@media screen and (min-width: 320px) and (max-width: 480px) {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center; 
-padding-bottom: 50px;
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;  
-padding-bottom: 100px;
-  }
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding-bottom: 100px;
-}
+
 
 .hero-row {
   //small
@@ -53,3 +33,11 @@ align-items: center;
 justify-content: center;
 margin-top: 100px;
 }
+
+
+background-color: #000;
+opacity: 1;
+background-image:  linear-gradient(135deg, #7E74F1 25%, transparent 25%), linear-gradient(225deg, #7E74F1 25%, transparent 25%), linear-gradient(45deg, #7E74F1 25%, transparent 25%), linear-gradient(315deg, #7E74F1 25%, #000 25%);
+background-position:  9px 0, 9px 0, 0 0, 0 0;
+background-size: 18px 18px;
+background-repeat: repeat;

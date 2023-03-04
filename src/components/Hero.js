@@ -4,7 +4,7 @@ import { IoLogoWhatsapp, IoMdMail} from 'react-icons/io';
 import { FaGithubSquare } from 'react-icons/fa';
 
 
-import heroImage from '../assets/me.png'
+import heroImage from '../assets/hero1.png'
 
 
 
