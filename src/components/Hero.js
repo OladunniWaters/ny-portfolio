@@ -14,7 +14,8 @@ function Hero() {
     <div className="container Hero">
       <div className='row hero-row'>
            <div className='col hero-col-1'>
-              <h1 className='hero-h1'>PRODUCT DESIGNER CRISTIAN MUÑOZ</h1>
+               <h1 className='hero-h1'>Frontend Developer.</h1>
+                <p className='hero-p'>I like to craft solid and scalable frontend products with great user experience.</p>
                   <div className='hero-socials'>
                          <div className='hero-social-icon-div'>
                             <FaGithubSquare className='hero-social-icon' /> 
@@ -39,7 +40,7 @@ function Hero() {
            </div>
            
            <div className='col hero-col-2'>
-               <img className='hero-image' src={heroImage} alt='hero' />
+              <img src={heroImage} className='hero-image' alt='hero'/>
            </div>
       </div>
     </div>
