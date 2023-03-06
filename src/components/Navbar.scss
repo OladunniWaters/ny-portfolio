@@ -1,7 +1,7 @@
 .navbar-brand {
 width: 42px;
 height: 20px;
-font-family: 'Poppins';
+font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -10,7 +10,7 @@ color: var(--color-paragraph);
 }
 
 .nav-link {
- font-family: 'Gotham';
+font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -28,7 +28,7 @@ padding: 12px 24px;
 gap: 5px;
 width: 133px;
 height: 40px;
-background: var(--color-button);
+background: var(--color-bg);
 border-radius: 4px; 
 width: 133px;
 height: 40px;
@@ -40,9 +40,8 @@ line-height: 100%;
 letter-spacing: -0.05em;
 text-transform: capitalize;
 text-decoration: none;
-/* White */
-
 color: #FFFFFF;
+border: 2px solid #fff;
 }
 
 .contact_cont {
@@ -65,9 +64,11 @@ color: #FFFFFF;
   gap: 4px;
   width: 56px;
   height: 32px;
-  background: #FFEC70;
+  background: #fff;
   border-radius: 32px;
 }
 
 
-
+.toggle_icon {
+  color: #000;
+}

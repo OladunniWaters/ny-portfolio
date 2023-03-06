@@ -13,22 +13,13 @@ function Navbar({changeTheme,  currentTheme}) {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="/about">About Me</a>
+                <a class="nav-link" href="/portfolio">Works</a>
               </li>
             </ul>
             <ul class="contact_cont">
                 <a class="contact-link"  href="/contact">Contact Me</a>
                <div class="toggle_cont" onClick={changeTheme}>
-                    {currentTheme === "dark" ? <BsFillBrightnessHighFill /> :  <BsFillMoonFill />}
+                    {currentTheme === "dark" ? <BsFillBrightnessHighFill class='toggle_icon'/> :  <BsFillMoonFill class='toggle_icon'/>}
                </div>
             </ul>
           </div>

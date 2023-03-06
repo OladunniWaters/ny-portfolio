@@ -71,10 +71,11 @@ text-align: left;
 }
 
 
+
 .hero-h1 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-family: 'Anton';
+font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 60px;
@@ -83,12 +84,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
-letter-spacing: -0.03em;
 color: var(--color-paragraph);
+margin-bottom: 20px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-font-family: 'Anton';
+font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 60px;
@@ -99,12 +100,12 @@ line-height: 90%;
 display: flex;
 align-items: center;
 justify-content: center;
-letter-spacing: -0.03em;
 color: var(--color-paragraph);
+margin-bottom: 20px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-font-family: 'Anton';
+font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 100px;
@@ -112,11 +113,11 @@ line-height: 90%;
 display: flex;
 align-items: center;
 justify-content: center;
-letter-spacing: -0.03em;
 color: var(--color-paragraph);
+margin-bottom: 40px;
 }
 //extra large
-font-family: 'Anton';
+font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 100px;
@@ -124,9 +125,65 @@ line-height: 90%;
 display: flex;
 align-items: center;
 justify-content: center;
-letter-spacing: -0.03em;
 color: var(--color-paragraph);
+margin-bottom: 40px;
 }
+
+
+.hero-p {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: #fff;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+width: 550px;
+height: 100px;
+line-height: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+}
+//extra large
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+}
+
+
+
 
 .hero-socials {
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -250,7 +307,7 @@ color: var(--color-paragraph);
 text-decoration: none;
 border-radius: 5px;
 }
-background: var(--color-button);
+background: var(--color-bg);
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -265,75 +322,13 @@ font-weight: 400;
 font-size: 20px;
 line-height: 100%;
 letter-spacing: -0.05em;
-color: var(--color-paragraph);
+color: #fff;
 text-decoration: none;
 border-radius: 5px;
+border: 2px solid #fff;
 }
 
 
-
-.hero-cv:hover {
-@media screen and (min-width: 320px) and (max-width: 480px) {
-background: var(--color-button);
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 16px 24px 16px 32px;
-width: 300px;
-height: 52px;
-background: #292929;
-font-family: 'Gotham';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-display: flex;
-align-items: center;
-letter-spacing: -0.05em;        
-color: var(--color-paragraph);
-text-decoration: none;
-border-radius: 5px;
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-background: var(--color-button);  
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 16px 24px 16px 32px;
-gap: 8px;
-width: 330px;
-height: 52px;
-font-family: 'Gotham';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-display: flex;
-align-items: center;
-letter-spacing: -0.05em;
-color: var(--color-paragraph);
-text-decoration: none;
-border-radius: 5px;
-}
-background: var(--color-button);
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-padding: 16px 24px 16px 32px;
-gap: 8px;
-width: 330px;
-height: 52px;
-font-family: 'Gotham';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: -0.05em;
-color: var(--color-paragraph);
-text-decoration: none;
-border-radius: 5px;
-}
 
 
 
@@ -345,7 +340,7 @@ display: none;
 width: 400px;
 display: block;
 }
-width: 620px;
+width: 750px;
 display: block;
 }
 

@@ -1,4 +1,5 @@
 import Homepage from "./home/Homepage";
+import Portfolio from './components/Portfolio';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 //import "./App.css";
@@ -17,6 +18,7 @@ function App() {
        <Navbar changeTheme={changeTheme} currentTheme={theme}></Navbar> 
       <Routes>
         <Route path="/" element={<Homepage />} />
+         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
         <Footer />
     </HashRouter> 

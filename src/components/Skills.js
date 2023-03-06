@@ -12,21 +12,23 @@ import { FiFigma } from 'react-icons/fi';
 function Skills() {
   return (
     <div className="container Skills">
-       <h3 className='skills-h3'>SKILLS</h3>
-       <div className='skills-cont'>
-               <FaReact className='skills-icon'/>
-               <IoLogoJavascript className='skills-icon'/>
-               <TiHtml5 className='skills-icon'/>
-               <SiRedux className='skills-icon'/>
-               <IoLogoCss3 className='skills-icon'/>
-               <FaGitAlt className='skills-icon'/>
-               <SiTailwindcss className='skills-icon'/>
-               <SiReactrouter className='skills-icon'/>
-               <SiBootstrap className='skills-icon'/>
-               <SiMaterialui className='skills-icon'/>
-               <TbBrandReactNative className='skills-icon'/>
-               <FiFigma  className='skills-icon'/>
-          </div>
+        <div className='Skills-row'>
+           <h3 className='skills-h3'>SKILLS</h3>
+           <div className='skills-cont'>
+                   <FaReact className='skills-icon'/>
+                   <IoLogoJavascript className='skills-icon'/>
+                   <TiHtml5 className='skills-icon'/>
+                   <SiRedux className='skills-icon'/>
+                   <IoLogoCss3 className='skills-icon'/>
+                   <FaGitAlt className='skills-icon'/>
+                   <SiTailwindcss className='skills-icon'/>
+                   <SiReactrouter className='skills-icon'/>
+                   <SiBootstrap className='skills-icon'/>
+                   <SiMaterialui className='skills-icon'/>
+                   <TbBrandReactNative className='skills-icon'/>
+                   <FiFigma  className='skills-icon'/>
+              </div>
+           </div>   
       </div>
   );
 }
