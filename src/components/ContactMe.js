@@ -1,6 +1,6 @@
 import  './ContactMe.scss';
 
-import contactImage from '../assets/hero1.png'
+
 
 function ContactMe() {
   return (
