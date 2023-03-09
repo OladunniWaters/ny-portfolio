@@ -3,7 +3,7 @@ import { BsTwitter, BsLinkedin } from 'react-icons/bs';
 import { IoMdMail} from 'react-icons/io';
 import { FaGithubSquare } from 'react-icons/fa';
 
-import ContactMe from '../components/ContactMe';
+
 
 
 function Footer() {
