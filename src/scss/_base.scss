@@ -3,12 +3,8 @@
 /* LIGHT MODE Variables */
 :root{
   --color-bg: #FBFBFB;
-  --color-header: #7E74F1;
-  --color-paragraph:  #000;
-  --color-icon:  #7E74F1;
-  --color-button:  #7E74F1;
-  --color-card:  #F5F3FE;
-  --color-bg-second:  #1D4645;
+  --color-text:  #000;
+  --color-icon:  #000;
 
   /* ======= neumorphic ======== */
   --neu-light: rgba(211, 211, 211, 0.2);
@@ -17,14 +13,9 @@
   
   /* ========= Dark Theme Variable ========== */
 [data-theme = "dark"]{
-  --color-bg: #4831d4;
-  --color-header: #7E74F1;
-  --color-paragraph:  #ccf381;
-  --color-icon:  #7E74F1;
-  --color-button:  #3b8bfb;
-  --color-green:  #3fffb2;
-  --color-card:  #F5F3FE;
-  --color-bg-second:  #000;
+  --color-bg: #000;
+  --color-text:  #fff;
+  --color-icon:  #fff;
 }
 
 *{

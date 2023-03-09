@@ -51,14 +51,14 @@ margin-top: 50px;
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 display: flex;
-flex-direction: row-reverse;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 100px;
 }
 //extra large
 display: flex;
-flex-direction: row-reverse;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 100px;
@@ -103,7 +103,7 @@ color: var(--color-icon);
 width: 80px;
 height: 80px;
 margin-right: 10px;
-color: var(--color-icon);
+color: #fff;
 }
 
 
