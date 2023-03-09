@@ -2,7 +2,7 @@ import "./Homepage.scss";
 import Hero from '../components/Hero';
 import Portfolio from '../components/Portfolio';
 import Skills from '../components/Skills';
-//import Footer from '../components/Footer';
+import Contact from '../components/ContactMe';
 
 function Homepage() {
   return (
@@ -10,6 +10,7 @@ function Homepage() {
        <Hero />
        <Skills />       
        <Portfolio />
+       <Contact />
     </div>
   );
 }
