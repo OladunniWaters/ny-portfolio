@@ -84,7 +84,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
-color: var(--color-paragraph);
+color: var(--color-text);
 margin-bottom: 20px;
 }
 // medium
@@ -100,7 +100,7 @@ line-height: 90%;
 display: flex;
 align-items: center;
 justify-content: center;
-color: var(--color-paragraph);
+color: var(--color-text);
 margin-bottom: 20px;
 }
 //large
@@ -113,7 +113,7 @@ line-height: 90%;
 display: flex;
 align-items: center;
 justify-content: center;
-color: var(--color-paragraph);
+color: var(--color-text);
 margin-bottom: 40px;
 }
 //extra large
@@ -125,7 +125,7 @@ line-height: 90%;
 display: flex;
 align-items: center;
 justify-content: center;
-color: var(--color-paragraph);
+color: var(--color-text);
 margin-bottom: 40px;
 }
 
@@ -340,7 +340,7 @@ display: none;
 width: 400px;
 display: block;
 }
-width: 750px;
+width: 300px;
 display: block;
 }
 

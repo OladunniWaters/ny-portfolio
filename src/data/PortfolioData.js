@@ -1,10 +1,13 @@
 
+
+
+
 const PortfolioData = [
   {
     id:1,
     title:"Recipe webapp",
     desc:"A website that allows you to source easy and mouthering dishes",
-    image:"",
+    image:"../assets/hero1.png",
     tools: {
       javascript: "React JS",
       cssFramework: "Tailwind",

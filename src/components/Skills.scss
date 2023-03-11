@@ -67,16 +67,32 @@ margin-top: 100px;
 
 
 .skills-h3 {
-width: 245px;
-height: 64px;
-font-family: 'Anton';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 100%;
-text-transform: uppercase;
-color: #FFFFFF;
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
 text-align: center;
+color: var(--color-text);
+font-family: 'Orbitron', sans-serif;
+margin-bottom: 35px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+text-align: center;
+color: var(--color-text);
+font-family: 'Orbitron', sans-serif;
+margin-bottom: 35px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+text-align: center;
+color: var(--color-text);
+font-family: 'Orbitron', sans-serif;
+margin-bottom: 70px;
+}
+//extra large
+text-align: center;
+color: var(--color-text);
+font-family: 'Orbitron', sans-serif;
+margin-bottom: 70px;
 }
 
 

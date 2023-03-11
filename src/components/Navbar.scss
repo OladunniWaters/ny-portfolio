@@ -5,7 +5,6 @@ font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
-line-height: 100%;
 color: var(--color-paragraph);
 }
 
@@ -14,47 +13,20 @@ font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 100%;
-letter-spacing: -0.05em;
+margin-right: 30px;
 color: var(--color-paragraph);
 }
 
 .contact-link {
- display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-gap: 5px;
-width: 133px;
-height: 40px;
-background: var(--color-bg);
-border-radius: 4px; 
-width: 133px;
-height: 40px;
-font-family: 'Gotham';
+font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 20px;
 line-height: 100%;
-letter-spacing: -0.05em;
-text-transform: capitalize;
-text-decoration: none;
-color: #FFFFFF;
-border: 2px solid #fff;
+color: var(--color-paragraph);
 }
 
-.contact_cont {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
-  gap: 20px;
-  width: 209px;
-  height: 40px;
-  margin-top: 10px;
-}
+
 
 .toggle_cont {
   display: flex;
@@ -66,6 +38,8 @@ border: 2px solid #fff;
   height: 32px;
   background: #fff;
   border-radius: 32px;
+  margin-left: 40px;
+  margin-top: 15px;
 }
 
 
