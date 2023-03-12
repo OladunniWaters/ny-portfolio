@@ -229,17 +229,18 @@ background-image: linear-gradient(to right top, #c165dd, #b253e4, #9f43eb, #8433
 .contact-image {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 200px;
-
+display: none;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-width: 200px;
+display: none;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 width: 200px;
+display: block;
 }
 //extra large
 width: 200px;
+display: block;
 }
