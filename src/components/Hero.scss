@@ -2,7 +2,8 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;  
+justify-content: center; 
+margin-top: 200px;
 }
 
 .hero-row {
@@ -19,21 +20,21 @@ margin-top: 25px;
 @media screen and (min-width: 577px) and (max-width: 768px) {
 display: flex;
 align-items: center;
-flex-direction: row;
+flex-direction: column;
 justify-content: center;
 margin-top: 50px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 100px;
 }
 //extra large
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 100px;
@@ -62,12 +63,17 @@ justify-content: center;
 @media screen and (min-width: 769px) and (max-width: 992px) {
 display: flex;
 flex-direction: column;
-text-align: left;
+text-align: center;
+align-items: center;
+justify-content: center;
 }
 //extra large
 display: flex;
 flex-direction: column;
-text-align: left;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-top: -160px;
 }
 
 
@@ -78,7 +84,7 @@ text-align: left;
 font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 60px;
+font-size: 20px;
 line-height: 90%;
 display: flex;
 align-items: center;
@@ -127,6 +133,9 @@ align-items: center;
 justify-content: center;
 color: var(--color-text);
 margin-bottom: 40px;
+text-transform: uppercase;
+text-align: center;
+line-height: 120px;
 }
 
 
@@ -136,13 +145,14 @@ margin-bottom: 40px;
 font-family: 'Space Mono', monospace;
 font-style: normal;
 font-weight: 400;
-font-size: 10px;
+font-size: 20px;
 line-height: 15px;
 display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
-color: #fff;
+color: var(--color-text);
+width: 250px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -156,7 +166,8 @@ line-height: 15px;
 display: flex;
 align-items: center;
 justify-content: center;
-color: #fff;
+color: var(--color-text);
+width: 450px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -168,7 +179,8 @@ line-height: 30px;
 display: flex;
 align-items: center;
 justify-content: center;
-color: #fff;
+color: var(--color-text);
+width: 450px;
 }
 //extra large
 font-family: 'Space Mono', monospace;
@@ -179,7 +191,10 @@ line-height: 30px;
 display: flex;
 align-items: center;
 justify-content: center;
-color: #fff;
+color: var(--color-text);
+width: 900px;
+margin-top: 40px;
+margin-bottom: 80px;
 }
 
 
@@ -330,17 +345,221 @@ border: 2px solid #fff;
 
 
 
-
-
-.hero-image {
-@media screen and (min-width: 320px) and (max-width: 834px) {
-display: none;
+.hero-3d-cont {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
 }
-@media screen and (min-width: 835px) and (max-width: 1024px) {
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
+}
+//extra large
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
+}
+
+
+
+
+.hero-3d {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+position: absolute;
 width: 400px;
-display: block;
+height: 400px;
+left: calc(50% - 58px/2);
+top: calc(50% - 58px/2);
 }
-width: 300px;
-display: block;
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+position: absolute;
+width: 400px;
+height: 400px;
+left: calc(50% - 58px/2);
+top: calc(50% - 58px/2);
 }
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+position: absolute;
+width: 400px;
+height: 400px;
+left: calc(50% - 58px/2);
+top: calc(50% - 58px/2);
+}
+//extra large
+position: absolute;
+width: 400px;
+height: 400px;
+left: calc(50% - 58px/2);
+top: calc(50% - 58px/2);
+}
+
+
+
+
+.hero-3d-1 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+left: 408.11px;
+top: -500px;
+position: absolute;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+left: 408.11px;
+top: -500px;
+position: absolute;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+left: 408.11px;
+top: -500px;
+position: absolute;;
+}
+//extra large
+box-sizing: border-box;
+left: 408.11px;
+top: -500px;
+position: absolute;
+}
+
+
+.hero-3d-2 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+left: -250.89px;
+top: -200px;
+position: absolute;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+left: -250.89px;
+top: -200px;
+position: absolute;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+left: -250.89px;
+top: -200px;
+position: absolute;
+}
+//extra large
+box-sizing: border-box;
+left: -250.89px;
+top: -200px;
+position: absolute;
+}
+
+
+.hero-3d-3 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+left: -250.89px;
+top: 200px;
+position: absolute;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+left: -250.89px;
+top: 200px;
+position: absolute;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+left: -250.89px;
+top: 200px;
+position: absolute;
+}
+//extra large
+box-sizing: border-box;
+left: -250.89px;
+top: 200px;
+position: absolute;
+}
+
+
+.hero-3d-4 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+right: 70.89px;
+top: 200px;
+position: absolute;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+right: 70.89px;
+top: 200px;
+position: absolute;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+right: 70.89px;
+top: 200px;
+position: absolute;
+}
+//extra large
+box-sizing: border-box;
+right: 70.89px;
+top: 200px;
+position: absolute;
+}
+
+
+.hero-3d-5 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+left: 520px;
+top: 314.41px;
+position: absolute;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+left: 520px;
+top: 314.41px;
+position: absolute;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+left: 520px;
+top: 314.41px;
+position: absolute;
+}
+//extra large
+box-sizing: border-box;
+right: 70.89px;
+top: -200px;
+position: absolute;
+}
+
 

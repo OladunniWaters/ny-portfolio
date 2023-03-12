@@ -5,7 +5,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 25px;
+margin-top: 100px;
+margin-bottom: 100px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -13,7 +14,8 @@ display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: center;
-margin-top: 50px;
+margin-top: 200px;
+margin-bottom: 200px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -21,14 +23,16 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 100px;
+margin-top: 400px;
+margin-bottom: 400px;
 }
 //extra large
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 100px;
+margin-top: 400px;
+margin-bottom: 400px;
 }
 
 .Skills-row {
@@ -99,44 +103,641 @@ margin-bottom: 70px;
 .skills-icon {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 30px;
-height: 30px;
-color: var(--color-icon);
+position: absolute;
+width: 58px;
+height: 58px;
+left: calc(50% - 58px/2);
+top: calc(50% - 58px/2);
+color: #000;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-width: 50px;
-height: 50px;
-color: var(--color-icon);
+position: absolute;
+width: 58px;
+height: 58px;
+left: calc(50% - 58px/2);
+top: calc(50% - 58px/2);
+color: #000;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-width: 80px;
-height: 80px;
-color: var(--color-icon);
+position: absolute;
+width: 58px;
+height: 58px;
+left: calc(50% - 58px/2);
+top: calc(50% - 58px/2);
+color: #000;
 }
 //extra large
-width: 80px;
-height: 80px;
-margin-right: 10px;
-color: #fff;
+position: absolute;
+width: 58px;
+height: 58px;
+left: calc(50% - 58px/2);
+top: calc(50% - 58px/2);
+color: #000;
 }
-
 
 .skills-cont {
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  gap: 2rem;
-  margin-bottom: 40px;
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+width: 484px;
+height: 480px;
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+width: 484px;
+height: 480px;
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+width: 484px;
+height: 480px;
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
+}
+//extra large
+width: 484px;
+height: 480px;
+flex: none;
+order: 1;
+flex-grow: 0;
+position: relative;
 }
 
-@media (min-width: 768px) {
-  .skills-cont { grid-template-columns: repeat(4, 1fr); }
+
+.skills-icon1 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 208.11px;
+top: 0px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 208.11px;
+top: 0px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 208.11px;
+top: 0px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 208.11px;
+top: 0px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
 }
 
-@media (min-width: 1024px) {
-  .skills-cont { grid-template-columns: repeat(6, 1fr); }
+.skills-icon2 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 336.89px;
+top: 62.39px;
+position: absolute;
+background-image: url('../assets/Light Gradient 04.png');
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 336.89px;
+top: 62.39px;
+position: absolute;
+background-image: url('../assets/Light Gradient 04.png');
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 336.89px;
+top: 62.39px;
+position: absolute;
+background-image: url('../assets/Light Gradient 04.png');
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 336.89px;
+top: 62.39px;
+position: absolute;
+background: url('../assets/Light Gradient 04.png');
+border: 1px solid purple;
 }
 
 
+.skills-icon3 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 450px;
+top: 70px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 450px;
+top: 40px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 450px;
+top: 40px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 450px;
+top: 40px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+.skills-icon4 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 615.61px;
+top: 150px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 550px;
+top: 150px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 550px;
+top: 150px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 615.61px;
+top: 150px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+
+.skills-icon5 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 87.44px;
+top: 152px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 87.44px;
+top: 152px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 87.44px;
+top: 152px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 87.44px;
+top: 152px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+.skills-icon6 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 293.59px;
+top: 240px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 293.59px;
+top: 240px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 293.59px;
+top: 240px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 293.59px;
+top: 240px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+
+.skills-icon7 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 500px;
+top: 309.61px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 500px;
+top: 309.61px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 500px;
+top: 309.61px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+right: 500px;
+top: 309.61px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+
+.skills-icon8 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 121px;
+right: 243px;
+top: 336px;
+bottom: 24px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 121px;
+right: 243px;
+top: 336px;
+bottom: 24px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 121px;
+right: 243px;
+top: 336px;
+bottom: 24px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 121px;
+right: 243px;
+top: 336px;
+bottom: 24px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+
+.skills-icon9 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 520px;
+top: 314.41px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 520px;
+top: 314.41px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 520px;
+top: 314.41px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 520px;
+top: 314.41px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+.skills-icon10 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 450px;
+top: 163.2px;
+bottom: 196.8px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 450px;
+top: 163.2px;
+bottom: 196.8px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 450px;
+top: 163.2px;
+bottom: 196.8px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 450px;
+top: 163.2px;
+bottom: 196.8px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+.skills-icon11 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 307.84px;
+top: 396px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 307.84px;
+top: 396px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 307.84px;
+top: 396px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 307.84px;
+top: 396px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+
+
+
+.skills-icon12 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 600px;
+top: 196px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 550px;
+top: 196px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 600px;
+top: 196px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
+//extra large
+box-sizing: border-box;
+width: 60px;
+height: 60px;
+left: 600px;
+top: 196px;
+position: absolute;
+background: var(--color-text);
+border: 1px solid purple;
+}
