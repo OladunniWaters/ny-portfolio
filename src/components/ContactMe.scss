@@ -144,23 +144,27 @@ font-family: 'Orbitron', sans-serif;
 text-align: center;
 font-family: 'Space Mono', monospace;
 color: var(--color-text);
+font-size: 12px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 text-align: center;
 font-family: 'Space Mono', monospace;
 color: var(--color-text);
+font-size: 20px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 text-align: center;
 font-family: 'Space Mono', monospace;
 color: var(--color-text);
+font-size: 20px;
 }
 //extra large
 text-align: center;
 font-family: 'Space Mono', monospace;
 color: var(--color-text);
+font-size: 20px;
 }
 
   
