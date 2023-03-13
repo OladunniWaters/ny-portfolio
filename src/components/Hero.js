@@ -20,34 +20,37 @@ function Hero() {
       <div className='row hero-row'>
           <div className='hero-3d-cont'>
                
-               <div className='hero-3d-2'>
+               <div className='hero-3d-1'>
                   <img src={heroImage2} alt='3d shapes' className='hero-3d'/>
                </div> 
                
-               <div className='hero-3d-3'>
+               <div className='hero-3d-2'>
                   <img src={heroImage3} alt='3d shapes' className='hero-3d'/>
+               </div> 
+               
+               <div className='hero-3d-3'>
+                  <img src={heroImage5} alt='3d shapes' className='hero-3d'/>
                </div> 
                
                <div className='hero-3d-4'>
                   <img src={heroImage4} alt='3d shapes' className='hero-3d'/>
                </div> 
-               
-               <div className='hero-3d-5'>
-                  <img src={heroImage5} alt='3d shapes' className='hero-3d'/>
-               </div> 
-               
-
-               
-
+      
                
              <div className='col hero-col-1'>
                <h1 className='hero-h1'>Frontend Developer.</h1>
                 <p className='hero-p'>I like to craft solid and scalable frontend products with great user experience.</p>
                 <a href='/contact' className='hero-cv'>Download Curriculum Vitae</a>
+              
            </div>
           </div>
-          
       </div>
+      
+                <div class="scroll-downs">
+                  <div class="mousey">
+                    <div class="scroller"></div>
+                  </div>
+                </div>
     </div>
   );
 }
