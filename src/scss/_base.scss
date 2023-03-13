@@ -5,6 +5,10 @@
   --color-bg: #FBFBFB;
   --color-text:  #000;
   --color-icon:  #000;
+  --color-skill-bg:  rgba(242, 247, 251, 0.08);
+  --color-skill-border:  rgba(242, 247, 251, 0.25);
+  --color-skill-color:  #F2F7FB;
+;
 
   /* ======= neumorphic ======== */
   --neu-light: rgba(211, 211, 211, 0.2);
@@ -16,6 +20,9 @@
   --color-bg: #000;
   --color-text:  #fff;
   --color-icon:  #fff;
+  --color-skill-bg:  rgba(242, 247, 251, 0.08);
+  --color-skill-border:  rgba(242, 247, 251, 0.25);
+  --color-skill-color:  #F2F7FB;
 }
 
 *{
