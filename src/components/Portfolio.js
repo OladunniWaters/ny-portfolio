@@ -17,7 +17,7 @@ import PortfolioImage4 from '../assets/Tube_Long_Laying_3__L Shadowless.png'
 function Portfolio() {
   
   return (
-    <div className='container Portfolio'>
+    <div className='Portfolio'>
             <h2 className='portfolio-h2'>WORKS</h2>
             
             <div className='portfolio-card'>
@@ -48,7 +48,7 @@ function Portfolio() {
                 <div className='portfolio-card-body2'>
                     <div className='card-text-cont2'>
                         <h3 className='portfolio-h32'>MOVIE APP</h3>
-                        <BsArrowUpRight className='arrow-icon'/>
+                        <BsArrowUpRight className='arrow-icon2'/>
                     </div>  
                      <p className='portfolio-p2'>In 2 years of flextime work at CRAFT-Education. I improved the learning environment for their students and digitalised many of their business processes.</p>
                      <div className='card-button-cont2'>

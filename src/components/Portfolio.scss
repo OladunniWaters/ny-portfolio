@@ -8,6 +8,7 @@ justify-content: center;
 margin-top: 25px;
 background: #F2F7FB;
 border-radius: 30px;
+width: 500px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -18,6 +19,7 @@ justify-content: center;
 margin-top: 50px;
 background: #F2F7FB;
 border-radius: 30px;
+width: 1000px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -28,6 +30,7 @@ justify-content: center;
 margin-top: 100px;
 background: #F2F7FB;
 border-radius: 30px;
+width: 1000px;
 }
 //extra large
 display: flex;
@@ -37,6 +40,7 @@ justify-content: center;
 margin-top: 100px;
 background: #F2F7FB;
 border-radius: 30px;
+width: 1200px;
 }
 
 
@@ -116,7 +120,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
-margin-bottom: 100px;
+margin-bottom: 200px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -148,7 +152,7 @@ margin-bottom: 0px;
 .PortfolioImage-cont {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 450px;
+width: 350px;
 height: 350px;
 background: #000;
 border-radius: 20px;
@@ -214,21 +218,21 @@ top: 10px;
 .portfolio-card-body {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 390px;
+width: 350px;
 height: 180.36px;
-margin-left: 0px;
+margin-left: 20px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 width: 390px;
 height: 180.36px;
-margin-left: 0px;
+margin-left: 20px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 width: 390px;
 height: 180.36px;
-margin-left: 0px;
+margin-left: 40px;
 }
 //extra large
 width: 390px;
@@ -242,20 +246,24 @@ margin-left: 40px;
 @media screen and (min-width: 320px) and (max-width: 576px) {
 display: flex;
 flex-direction: row;
+position: relative;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 display: flex;
 flex-direction: row;
+position: relative;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 display: flex;
 flex-direction: row;
+position: relative;
 }
 //extra large
 display: flex;
 flex-direction: row;
+position: relative;
 }
 
 
@@ -263,7 +271,7 @@ flex-direction: row;
 .portfolio-h3 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 332px;
+width: 300px;
 height: 31px;
 left: 0px;
 top: 0.33px;
@@ -329,11 +337,49 @@ color: var(--color-portfolio-text);
 margin-top: -50px;
 }
 
+.arrow-icon {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-size: 20px;
+font-weight: 500;
+color: #000;
+position: absolute;
+left: 130px;
+top: 30px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-size: 30px;
+font-weight: 500;
+color: #000;
+position: absolute;
+left: 190px;
+top: 25px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-size: 30px;
+font-weight: 500;
+color: #000;
+position: absolute;
+left: 190px;
+top: 25px;
+}
+//extra large
+font-size: 30px;
+font-weight: 500;
+color: #000;
+position: absolute;
+left: 190px;
+top: -50px;
+}
+
+
 
 .portfolio-p {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 400px;
+width: 350px;
 height: 31px;
 left: 0px;
 top: 0.33px;
@@ -347,8 +393,8 @@ align-items: center;
 text-align: left;
 text-transform: capitalize;
 color: var(--color-portfolio-text);
-margin-top: 20px;
-margin-bottom: 40px;
+margin-top: 40px;
+margin-bottom: 60px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -505,7 +551,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
-margin-bottom: 100px;
+margin-bottom: 200px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -537,7 +583,7 @@ margin-bottom: 0px;
 .PortfolioImage-cont2 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 450px;
+width: 350px;
 height: 350px;
 background: #000;
 border-radius: 20px;
@@ -609,21 +655,21 @@ top: 10px;
 .portfolio-card-body2 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 390px;
+width: 350px;
 height: 180.36px;
-margin-left: 0px;
+margin-left: 20px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 width: 390px;
 height: 180.36px;
-margin-left: 0px;
+margin-left: 20px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 width: 390px;
 height: 180.36px;
-margin-left: 0px;
+margin-left: 20px;
 }
 //extra large
 width: 390px;
@@ -637,20 +683,24 @@ margin-left: 40px;
 @media screen and (min-width: 320px) and (max-width: 576px) {
 display: flex;
 flex-direction: row;
+position: relative;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 display: flex;
 flex-direction: row;
+position: relative;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 display: flex;
 flex-direction: row;
+position: relative;
 }
 //extra large
 display: flex;
 flex-direction: row;
+position: relative;
 }
 
 
@@ -658,7 +708,7 @@ flex-direction: row;
 .portfolio-h32 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 332px;
+width: 300px;
 height: 31px;
 left: 0px;
 top: 0.33px;
@@ -725,10 +775,49 @@ margin-top: -50px;
 }
 
 
+.arrow-icon2 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-size: 20px;
+font-weight: 500;
+color: #000;
+position: absolute;
+left: 130px;
+top: 30px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-size: 30px;
+font-weight: 500;
+color: #000;
+position: absolute;
+left: 190px;
+top: 25px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-size: 30px;
+font-weight: 500;
+color: #000;
+position: absolute;
+left: 190px;
+top: 25px;
+}
+//extra large
+font-size: 30px;
+font-weight: 500;
+color: #000;
+position: absolute;
+left: 190px;
+top: -50px;
+}
+
+
+
 .portfolio-p2 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-width: 400px;
+width: 350px;
 height: 31px;
 left: 0px;
 top: 0.33px;
@@ -742,8 +831,8 @@ align-items: center;
 text-align: left;
 text-transform: capitalize;
 color: var(--color-portfolio-text);
-margin-top: 20px;
-margin-bottom: 40px;
+margin-top: 40px;
+margin-bottom: 60px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
