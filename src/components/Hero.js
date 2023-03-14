@@ -4,13 +4,11 @@ import "./Hero.scss";
 //import { FaGithubSquare } from 'react-icons/fa';
 
 
-//import heroImage1 from '../assets/Spring_Fat_Tall_R Shadowless.png'
 import heroImage2 from '../assets/Sphere_Low_Poly_1__L Shadowless.png'
 import heroImage3 from '../assets/Sphere_Ring_Standing_R Shadowless.png'
 import heroImage4 from '../assets/Tube_Medium_Laying_4__L Shadowless.png'
 import heroImage5 from '../assets/Tube_Long_Laying_3__L Shadowless.png'
-//import heroImage6 from '../assets/Sphere_Low_Poly_3__R Shadowless.png'
-//import heroImage7 from '../assets/Platonic_3_-_Icosa_R Shadowless.png'
+
 
 
 
