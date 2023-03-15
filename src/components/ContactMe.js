@@ -1,9 +1,5 @@
 import  './ContactMe.scss';
 
-import { FaRegSmileWink } from 'react-icons/fa';
-
-import rightHand from '../assets/Point_right.png'
-import leftHand from '../assets/Point_left.png'
 
 function ContactMe() {
   return (
