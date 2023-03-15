@@ -145,6 +145,9 @@ text-align: center;
 font-family: 'Space Mono', monospace;
 color: var(--color-text);
 font-size: 12px;
+width: 300px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -165,6 +168,9 @@ text-align: center;
 font-family: 'Space Mono', monospace;
 color: var(--color-text);
 font-size: 20px;
+width: 600px;
+margin-top: 20px;
+margin-bottom: 40px;
 }
 
   

@@ -1,13 +1,12 @@
 import "./Navbar.scss";
-import {BsFillBrightnessHighFill, BsFillMoonFill} from "react-icons/bs";
 import { HiMenuAlt2 } from 'react-icons/hi';
 
-function Navbar({changeTheme,  currentTheme}) {
+function Navbar() {
 
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="/">WATERS</a>
+        <a class="navbar-brand" href="/">Oladunni</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <HiMenuAlt2 className='navbar-icon' />
         </button>
@@ -20,9 +19,6 @@ function Navbar({changeTheme,  currentTheme}) {
               <a class="nav-link" href='/contact'>Contact</a>
             </li>
           </ul>
-          <div class="toggle_cont" onClick={changeTheme}>
-                    {currentTheme === "dark" ? <BsFillBrightnessHighFill class='toggle_icon'/> :  <BsFillMoonFill class='toggle_icon'/>}
-          </div>
         </div>
       </div>
     </nav>

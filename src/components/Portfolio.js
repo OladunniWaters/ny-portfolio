@@ -1,5 +1,5 @@
 import  './Portfolio.scss';
-import { ImArrowUpRight2 } from 'react-icons/im';
+
 import { BsArrowUpRight } from 'react-icons/bs';
 
 import { FaReact, FaGitAlt, FaGithub } from 'react-icons/fa';
@@ -17,6 +17,8 @@ import PortfolioImage4 from '../assets/Tube_Long_Laying_3__L Shadowless.png'
 function Portfolio() {
   
   return (
+    
+    
     <div className='Portfolio'>
             <h2 className='portfolio-h2'>WORKS</h2>
             
@@ -111,12 +113,10 @@ function Portfolio() {
                          <p className='tools-p'>React</p>
                          <p className='tools-p'>Javascript</p>
                          <p className='tools-p'>Css3</p>
-                         <p className='tools-p'>Html5</p>
-                         <p className='tools-p'>Git</p>
                   </div>   
                   <div className='link-cont'>
                          <FaGithub className='git-icon'/>
-                         <ImArrowUpRight2 className='arrowlink-icon'/>
+                         <BsArrowUpRight className='arrowlink-icon'/>
                      </div>   
                </div>
                
@@ -126,12 +126,10 @@ function Portfolio() {
                          <p className='tools-p'>React</p>
                          <p className='tools-p'>Javascript</p>
                          <p className='tools-p'>Css3</p>
-                         <p className='tools-p'>Html5</p>
-                         <p className='tools-p'>Git</p>
                   </div>   
                   <div className='link-cont'>
                          <FaGithub className='git-icon'/>
-                         <ImArrowUpRight2 className='arrowlink-icon'/>
+                         <BsArrowUpRight className='arrowlink-icon'/>
                      </div>   
                </div>
                
@@ -141,12 +139,10 @@ function Portfolio() {
                          <p className='tools-p'>React</p>
                          <p className='tools-p'>Javascript</p>
                          <p className='tools-p'>Css3</p>
-                         <p className='tools-p'>Html5</p>
-                         <p className='tools-p'>Git</p>
                   </div>   
                   <div className='link-cont'>
                          <FaGithub className='git-icon'/>
-                         <ImArrowUpRight2 className='arrowlink-icon'/>
+                         <BsArrowUpRight className='arrowlink-icon'/>
                      </div>   
                </div>
                
@@ -156,12 +152,10 @@ function Portfolio() {
                          <p className='tools-p'>React</p>
                          <p className='tools-p'>Javascript</p>
                          <p className='tools-p'>Css3</p>
-                         <p className='tools-p'>Html5</p>
-                         <p className='tools-p'>Git</p>
                   </div>   
                   <div className='link-cont'>
                          <FaGithub className='git-icon'/>
-                         <ImArrowUpRight2 className='arrowlink-icon'/>
+                         <BsArrowUpRight className='arrowlink-icon'/>
                      </div>   
                </div>
           </div>
