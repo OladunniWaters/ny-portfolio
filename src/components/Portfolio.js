@@ -1,8 +1,8 @@
 import  './Portfolio.scss';
-
+import { ImArrowUpRight2 } from 'react-icons/im';
 import { BsArrowUpRight } from 'react-icons/bs';
 
-import { FaReact, FaGitAlt } from 'react-icons/fa';
+import { FaReact, FaGitAlt, FaGithub } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 import { TiHtml5 } from 'react-icons/ti';
 //import { SiTailwindcss, SiRedux, SiBootstrap, SiReactrouter, SiMaterialui } from 'react-icons/si';
@@ -103,6 +103,68 @@ function Portfolio() {
                 </div>
            </div> 
            
+           
+          <div className='project-cont-box'>
+               <div className='project-cont'>
+                  <h3 className='project-h3'>Airbnb Clone</h3>
+                  <div className='tools-cont'>
+                         <p className='tools-p'>React</p>
+                         <p className='tools-p'>Javascript</p>
+                         <p className='tools-p'>Css3</p>
+                         <p className='tools-p'>Html5</p>
+                         <p className='tools-p'>Git</p>
+                  </div>   
+                  <div className='link-cont'>
+                         <FaGithub className='git-icon'/>
+                         <ImArrowUpRight2 className='arrowlink-icon'/>
+                     </div>   
+               </div>
+               
+               <div className='project-cont'>
+                  <h3 className='project-h3'>Airbnb Clone</h3>
+                  <div className='tools-cont'>
+                         <p className='tools-p'>React</p>
+                         <p className='tools-p'>Javascript</p>
+                         <p className='tools-p'>Css3</p>
+                         <p className='tools-p'>Html5</p>
+                         <p className='tools-p'>Git</p>
+                  </div>   
+                  <div className='link-cont'>
+                         <FaGithub className='git-icon'/>
+                         <ImArrowUpRight2 className='arrowlink-icon'/>
+                     </div>   
+               </div>
+               
+               <div className='project-cont'>
+                  <h3 className='project-h3'>Airbnb Clone</h3>
+                  <div className='tools-cont'>
+                         <p className='tools-p'>React</p>
+                         <p className='tools-p'>Javascript</p>
+                         <p className='tools-p'>Css3</p>
+                         <p className='tools-p'>Html5</p>
+                         <p className='tools-p'>Git</p>
+                  </div>   
+                  <div className='link-cont'>
+                         <FaGithub className='git-icon'/>
+                         <ImArrowUpRight2 className='arrowlink-icon'/>
+                     </div>   
+               </div>
+               
+               <div className='project-cont'>
+                  <h3 className='project-h3'>Airbnb Clone</h3>
+                  <div className='tools-cont'>
+                         <p className='tools-p'>React</p>
+                         <p className='tools-p'>Javascript</p>
+                         <p className='tools-p'>Css3</p>
+                         <p className='tools-p'>Html5</p>
+                         <p className='tools-p'>Git</p>
+                  </div>   
+                  <div className='link-cont'>
+                         <FaGithub className='git-icon'/>
+                         <ImArrowUpRight2 className='arrowlink-icon'/>
+                     </div>   
+               </div>
+          </div>
            
    </div>
   );
