@@ -346,6 +346,7 @@ color: #000;
 position: absolute;
 left: 130px;
 top: 30px;
+animation: slide1 1s ease-in-out infinite;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -355,6 +356,7 @@ color: #000;
 position: absolute;
 left: 190px;
 top: 25px;
+animation: slide1 1s ease-in-out infinite;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -364,6 +366,7 @@ color: #000;
 position: absolute;
 left: 190px;
 top: 25px;
+animation: slide1 1s ease-in-out infinite;
 }
 //extra large
 font-size: 30px;
@@ -372,7 +375,19 @@ color: #000;
 position: absolute;
 left: 190px;
 top: -50px;
+animation: slide1 1s ease-in-out infinite;
 }
+
+@keyframes slide1 {
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    
+    50%{
+        transform: translate(5px, 0)
+    }
+}
+
 
 
 
@@ -784,6 +799,7 @@ color: #000;
 position: absolute;
 left: 130px;
 top: 30px;
+animation: slide1 1s ease-in-out infinite;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -793,6 +809,7 @@ color: #000;
 position: absolute;
 left: 190px;
 top: 25px;
+animation: slide1 1s ease-in-out infinite;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -802,6 +819,7 @@ color: #000;
 position: absolute;
 left: 190px;
 top: 25px;
+animation: slide1 1s ease-in-out infinite;
 }
 //extra large
 font-size: 30px;
@@ -810,8 +828,18 @@ color: #000;
 position: absolute;
 left: 190px;
 top: -50px;
+animation: slide1 1s ease-in-out infinite;
 }
 
+@keyframes slide1 {
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    
+    50%{
+        transform: translate(5px, 0)
+    }
+}
 
 
 .portfolio-p2 {
@@ -1266,6 +1294,8 @@ color: #000;
 position: absolute;
 left: 35px;
 top: 5px;
+animation: slide1 10s ease-in-out infinite;
+margin-left: 5px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -1275,6 +1305,8 @@ color: #000;
 position: absolute;
 left: 50px;
 top: 5px;
+animation: slide1 1s ease-in-out infinite;
+margin-left: 5px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -1284,6 +1316,8 @@ color: #000;
 position: absolute;
 left: 50px;
 top: 5px;
+animation: slide1 1s ease-in-out infinite;
+margin-left: 5px;
 }
 //extra large
 font-size: 20px;
@@ -1292,4 +1326,17 @@ color: #000;
 position: absolute;
 left: 50px;
 top: 5px;
+animation: slide1 1s ease-in-out infinite;
+margin-left: 5px;
+}
+
+
+@keyframes slide1{
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    
+    50%{
+        transform: translate(5px, 0)
+    }
 }

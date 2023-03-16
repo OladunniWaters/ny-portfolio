@@ -107,7 +107,7 @@ function Portfolio() {
            
            
           <div className='project-cont-box'>
-               <div className='project-cont'>
+               <div data-aos="fade-up"  data-aos-duration="3000"  className='project-cont'>
                   <h3 className='project-h3'>Airbnb Clone</h3>
                   <div className='tools-cont'>
                          <p className='tools-p'>React</p>
