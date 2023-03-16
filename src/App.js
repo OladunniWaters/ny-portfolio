@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app" data-theme={theme}>
     <HashRouter>
-       <Navbar changeTheme={changeTheme} currentTheme={theme}></Navbar> 
+       <Navbar changeTheme={changeTheme}  currentTheme={theme}></Navbar> 
       <Routes>
         <Route path="/" element={<Homepage />} />
          <Route path="/portfolio" element={<Portfolio />} />

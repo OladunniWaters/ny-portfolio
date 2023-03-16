@@ -1,12 +1,22 @@
 import "./Navbar.scss";
 import { HiMenuAlt2 } from 'react-icons/hi';
 
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Navbar() {
+      useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
+
+
 
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="/">Oladunni</a>
+        <a data-aos="fade-right"  class="navbar-brand" href="/">Oladunni</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <HiMenuAlt2 className='navbar-icon' />
         </button>

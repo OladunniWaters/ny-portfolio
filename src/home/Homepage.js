@@ -6,7 +6,9 @@ import Contact from '../components/ContactMe';
 
 function Homepage() {
   return (
-    <div className="Homepage">
+    <div data-aos="fade-up" 
+         data-aos-duration="3000"
+         className="Homepage">
        <Hero />
        <Skills />       
        <Portfolio />
