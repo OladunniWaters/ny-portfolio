@@ -49,7 +49,7 @@ function Hero() {
                    className='hero-h1'>Frontend Developer.
                </h1>
                 <p className='hero-p'> I like to craft solid and scalable frontend products with great user experience.</p>
-                <a href='/contact' className='hero-cv'>Download Curriculum Vitae</a>
+                <a href='/contact' className='hero-cv'>Download CV</a>
               
            </div>
           </div>
