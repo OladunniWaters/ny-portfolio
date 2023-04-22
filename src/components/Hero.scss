@@ -14,7 +14,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
-margin-top: 25px;
+margin-top: 15px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -22,7 +22,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: center;
-margin-top: 100px;
+margin-top: 50px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -30,14 +30,14 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 100px;
+margin-top: 50px;
 }
 //extra large
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 100px;
+margin-top: 50px;
 }
 
 
@@ -553,7 +553,7 @@ transform: rotate(80.49deg);
 //extra large
 position: absolute;
 right: -100px;
-top: 100px;
+top: 50px;
 transform: rotate(80.49deg);
 }
 

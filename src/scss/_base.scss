@@ -21,7 +21,7 @@
   --color-bg: #000;
   --color-text:  #fff;
   --color-portfolio-text:  #000;
-  --color-icon:  #fff;
+  --color-icon:  #000;
   --color-skill-bg:  rgba(242, 247, 251, 0.08);
   --color-skill-border:  rgba(242, 247, 251, 0.25);
   --color-skill-color:  #F2F7FB;
@@ -46,7 +46,14 @@ html{
 html, body, .app{
   max-width: 100vw;
   overflow-x: hidden;
+    scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
 
 
 @media only screen and (min-width: 280px) and (max-width: 1080px){

@@ -2,12 +2,10 @@ import  './Portfolio.scss';
 
 import { BsArrowUpRight } from 'react-icons/bs';
 
-import { FaReact, FaGitAlt, FaGithub } from 'react-icons/fa';
+import { FaReact, FaGitAlt } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 import { TiHtml5 } from 'react-icons/ti';
-//import { SiTailwindcss, SiRedux, SiBootstrap, SiReactrouter, SiMaterialui } from 'react-icons/si';
-//import { TbBrandReactNative } from 'react-icons/tb';
-//import { FiFigma } from 'react-icons/fi';
+
 
 import PortfolioImage1 from '../assets/Tube_Short_Stack_x5__R Shadowless.png'
 import PortfolioImage2 from '../assets/Sphere_Low_Poly_3__R Shadowless.png'
@@ -23,10 +21,10 @@ function Portfolio() {
             <h2 className='portfolio-h2'>WORKS</h2>
             
             <div className='portfolio-card'>
-                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500" data-aos-offset="500px" data-aos-ease = 'ease' className='PortfolioImage-cont'>
+                <div className='PortfolioImage-cont'>
                     <img src={PortfolioImage1} alt='3d shapes' className='PortfolioImage'/>
                 </div>
-                <div data-aos="fade-up"  data-aos-duration="1500"   data-aos-delay="1000" data-aos-offset="500px" data-aos-ease = 'ease'  className='portfolio-card-body'>
+                <div className='portfolio-card-body'>
                     <div className='card-text-cont'>
                         <h3 className='portfolio-h3'>MOVIE APP</h3>
                         <BsArrowUpRight className='arrow-icon'/>
@@ -44,10 +42,10 @@ function Portfolio() {
            
            
              <div className='portfolio-card2'>
-                <div data-aos="fade-left" data-aos-duration="1500" data-aos-offset="500px" data-aos-delay="1500" data-aos-ease = 'ease'  className='PortfolioImage-cont2'>
+                <div className='PortfolioImage-cont2'>
                     <img src={PortfolioImage2} alt='3d shapes' className='PortfolioImage2'/>
                 </div>
-                <div data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="2000" data-aos-offset="1000px"   className='portfolio-card-body2'>
+                <div className='portfolio-card-body2'>
                     <div className='card-text-cont2'>
                         <h3 className='portfolio-h32'>MOVIE APP</h3>
                         <BsArrowUpRight className='arrow-icon2'/>
@@ -65,10 +63,10 @@ function Portfolio() {
            
            
            <div className='portfolio-card'>
-                <div data-aos="fade-right" data-aos-duration="1500" data-aos-offset="500px" data-aos-delay="2500" data-aos-ease = 'ease'   className='PortfolioImage-cont'>
+                <div  className='PortfolioImage-cont'>
                     <img src={PortfolioImage3} alt='3d shapes' className='PortfolioImage'/>
                 </div>
-                <div data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="3000" data-aos-offset="1000px"   className='portfolio-card-body'>
+                <div className='portfolio-card-body'>
                     <div className='card-text-cont'>
                         <h3 className='portfolio-h3'>MOVIE APP</h3>
                         <BsArrowUpRight className='arrow-icon'/>
@@ -86,10 +84,10 @@ function Portfolio() {
            
            
             <div className='portfolio-card2'>
-                <div data-aos="fade-left" data-aos-duration="1500" data-aos-offset="500px" data-aos-delay="2000" data-aos-ease = 'ease'   className='PortfolioImage-cont2'>
+                <div className='PortfolioImage-cont2'>
                     <img src={PortfolioImage4} alt='3d shapes' className='PortfolioImage2'/>
                 </div>
-                <div data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="2500" data-aos-offset="1000px"  className='portfolio-card-body2'>
+                <div className='portfolio-card-body2'>
                     <div className='card-text-cont2'>
                         <h3 className='portfolio-h32'>MOVIE APP</h3>
                         <BsArrowUpRight className='arrow-icon2'/>
@@ -104,62 +102,6 @@ function Portfolio() {
                      </div>    
                 </div>
            </div> 
-           
-           
-          <div className='project-cont-box'>
-               <div  className='project-cont'>
-                  <h3 className='project-h3'>Airbnb Clone</h3>
-                  <div className='tools-cont'>
-                         <p  className='tools-p'>React</p>
-                         <p className='tools-p'>Javascript</p>
-                         <p className='tools-p'>Css3</p>
-                  </div>   
-                  <div className='link-cont'>
-                         <FaGithub className='git-icon'/>
-                         <BsArrowUpRight className='arrowlink-icon'/>
-                     </div>   
-               </div>
-               
-               <div className='project-cont'>
-                  <h3 className='project-h3'>Airbnb Clone</h3>
-                  <div className='tools-cont'>
-                         <p className='tools-p'>React</p>
-                         <p className='tools-p'>Javascript</p>
-                         <p className='tools-p'>Css3</p>
-                  </div>   
-                  <div className='link-cont'>
-                         <FaGithub className='git-icon'/>
-                         <BsArrowUpRight className='arrowlink-icon'/>
-                     </div>   
-               </div>
-               
-               <div className='project-cont'>
-                  <h3 className='project-h3'>Airbnb Clone</h3>
-                  <div className='tools-cont'>
-                         <p className='tools-p'>React</p>
-                         <p className='tools-p'>Javascript</p>
-                         <p className='tools-p'>Css3</p>
-                  </div>   
-                  <div className='link-cont'>
-                         <FaGithub className='git-icon'/>
-                         <BsArrowUpRight className='arrowlink-icon'/>
-                     </div>   
-               </div>
-               
-               <div className='project-cont'>
-                  <h3 className='project-h3'>Airbnb Clone</h3>
-                  <div className='tools-cont'>
-                         <p className='tools-p'>React</p>
-                         <p className='tools-p'>Javascript</p>
-                         <p className='tools-p'>Css3</p>
-                  </div>   
-                  <div className='link-cont'>
-                         <FaGithub className='git-icon'/>
-                         <BsArrowUpRight className='arrowlink-icon'/>
-                     </div>   
-               </div>
-          </div>
-           
    </div>
   );
 }
