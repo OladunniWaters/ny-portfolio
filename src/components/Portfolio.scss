@@ -42,7 +42,10 @@ background: #F2F7FB;
 border-radius: 30px;
 width: 1200px;
 scroll-snap-type: y mandatory;
-overflow-y: auto;
+scrollbar-width: none;
+&::-webkit-srollbar {
+  display: none;
+}
 }
 
 

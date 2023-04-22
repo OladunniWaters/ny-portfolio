@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 //import "./App.css";
 import {BrowserRouter as HashRouter, Routes, Route} from "react-router-dom";
-import {useState} from "react";
+import  {useState} from 'react';
 
 function App() {
     const [theme, setTheme] = useState("dark")

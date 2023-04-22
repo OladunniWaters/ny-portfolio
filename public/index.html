@@ -33,22 +33,112 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
       <style>
-    .svgLoader {
-      animation: spin 0.5s linear infinite;
-      margin: auto;
-    }
-    .divLoader {
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 9999;
-    }
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Arvo';
+}
+
+body{
+  background-color: #E63946;
+}
+
+.main{
+  height:100vh;
+  width:100%;  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+h1{
+  text-align:center;
+  text-transform: uppercase;
+  color: #F1FAEE; 
+  font-size: 4rem;
+}
+
+.roller{
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: #1D3557;
+}
+
+
+#spare-time{
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 1rem;
+  margin-top: 0;
+  color: #A8DADC;
+  
+}
+
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;  
+}
+
+@keyframes slide {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -4rem;    
+  }
+  50%{
+    top: -8rem;
+  }
+  72.5%{
+    top: -12.25rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  h1{
+  text-align:center;
+  text-transform: uppercase;
+  color: #F1FAEE; 
+  font-size: 2.125rem;
+}
+  
+  .roller{
+  height: 2.6rem; 
+  line-height: 2.125rem;  
+  }
+  
+  #spare-time {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .roller #rolltext {  
+  animation: slide-mob 5s infinite;  
+}
+  
+  @keyframes slide-mob {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -2.125rem;    
+  }
+  50%{
+    top: -4.25rem;
+  }
+  72.5%{
+    top: -6.375rem;
+  }
+}
+}
   </style>
     
     
@@ -58,11 +148,16 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
       
-              <div class="divLoader">
-      <svg class="svgLoader" viewBox="0 0 100 100" width="10em" height="10em">
-        <path ng-attr-d="{{config.pathCmd}}" ng-attr-fill="{{config.color}}" stroke="none" d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50" fill="#51CACC" transform="rotate(179.719 50 51)"><animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 51;360 50 51" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform></path>
-      </svg>
+<div class="main">
+  <h1>This is purely: <div class="roller">
+    <span id="rolltext">HTML<br/>
+    CSS<br/>
+    Curiosity<br/>
+    <span id="spare-time">too much spare time?</span><br/>
     </div>
+    </h1>
+    
+  </div>
       
     </div>
     
