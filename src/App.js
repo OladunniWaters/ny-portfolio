@@ -1,7 +1,6 @@
-import Homepage from "./home/Homepage";
-import Portfolio from './components/Portfolio';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Hero from './component/Hero';
+import Header from './component/Header';
+import Footer from './component/Footer';
 //import "./App.css";
 import {BrowserRouter as HashRouter, Routes, Route} from "react-router-dom";
 import  {useState} from 'react';
@@ -15,10 +14,9 @@ function App() {
   return (
     <div className="app" data-theme={theme}>
     <HashRouter>
-       <Navbar changeTheme={changeTheme}  currentTheme={theme}></Navbar> 
+       <Header changeTheme={changeTheme}  currentTheme={theme}></Header> 
       <Routes>
-        <Route path="/" element={<Homepage />} />
-         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/" element={<Hero />} />
       </Routes>
         <Footer />
     </HashRouter> 
