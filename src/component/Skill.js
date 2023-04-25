@@ -1,4 +1,4 @@
-import "./Skills.scss";
+import "./Skill.scss";
 import { FaReact, FaGitAlt } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 import { TiHtml5 } from 'react-icons/ti';
@@ -11,9 +11,9 @@ import { FiFigma } from 'react-icons/fi';
 
 function Skills() {
   return (
+    <>
+    <h1 className='skill-h1'>SKILLS</h1>
     <div className="container Skills">
-        <div className='Skills-row'>
-        
          <div className='skills-cont'>
               <div className='skills-icon-cont'>
                    <p className='skills-p'>React-Native</p>
@@ -209,7 +209,7 @@ function Skills() {
           
           
     </div>   
-      </div>
+   </>
   );
 }
 export default Skills;

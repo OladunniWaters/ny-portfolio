@@ -1,4 +1,4 @@
-import Hero from './component/Hero';
+import Home from './component/Home';
 import Header from './component/Header';
 import Footer from './component/Footer';
 //import "./App.css";
@@ -16,7 +16,7 @@ function App() {
     <HashRouter>
        <Header changeTheme={changeTheme}  currentTheme={theme}></Header> 
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<Home />} />
       </Routes>
         <Footer />
     </HashRouter> 

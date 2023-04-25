@@ -32,10 +32,75 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 150px;
+margin-top: 50px;
 margin-bottom: 150px;
-
 }
+
+
+.skill-h1 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--color-text);
+margin-bottom: 20px;
+text-transform: uppercase;
+text-align: center;
+line-height: 40px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--color-text);
+margin-bottom: 40px;
+text-transform: uppercase;
+text-align: center;
+line-height: 80px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--color-text);
+margin-bottom: 40px;
+text-transform: uppercase;
+text-align: center;
+line-height: 120px;
+}
+//extra large
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 90%;
+color: var(--color-text);
+margin-bottom: 40px;
+text-transform: uppercase;
+text-align: left;
+line-height: 120px;
+padding-left: 70px;
+margin-top: 200px;
+}
+
 
 
 .skills-cont {
@@ -71,7 +136,6 @@ white-space: nowrap;
 display: flex;
 flex-direction: row;
 white-space: nowrap;
-
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
