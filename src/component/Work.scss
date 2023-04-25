@@ -1,0 +1,143 @@
+
+.work-h1 {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--color-text);
+margin-bottom: 20px;
+text-transform: uppercase;
+text-align: center;
+line-height: 40px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--color-text);
+margin-bottom: 40px;
+text-transform: uppercase;
+text-align: center;
+line-height: 80px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--color-text);
+margin-bottom: 40px;
+text-transform: uppercase;
+text-align: center;
+line-height: 120px;
+}
+//extra large
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+color: var(--color-text);
+margin-bottom: 40px;
+text-transform: uppercase;
+text-align: left;
+}
+
+.projects-container{
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  gap: 80px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+grid-template-columns: repeat(2, 1fr); 
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+grid-template-columns: repeat(2, 1fr); 
+}
+//extra large
+  display: grid;
+grid-template-columns: repeat(2, 1fr); 
+}
+
+
+
+
+
+.project-one {
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg,transparent,rgba(0,0,0,.85) 95%);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.project-one:hover .project-overlay {
+  height: 100%;
+}
+
+.project-body {
+  position: absolute;
+  top: 300px;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+}
+
+
+.project-text-cont {
+ padding: 0px 40px;
+}
+
+.project-link-cont {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

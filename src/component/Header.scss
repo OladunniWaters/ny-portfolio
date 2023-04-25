@@ -1,0 +1,53 @@
+.navbar-brand {
+width: 42px;
+height: 20px;
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: var(--color-paragraph);
+}
+
+.navbar-icon {
+  color: var(--color-text);
+  margin-top: 29px;
+}
+
+.nav-link {
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-right: 30px;
+color: var(--color-paragraph);
+}
+
+.contact-link {
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+color: var(--color-paragraph);
+}
+
+
+
+.toggle_cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 4px;
+  width: 56px;
+  height: 32px;
+  background: #fff;
+  border-radius: 32px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+
+.toggle_icon {
+  color: #000;
+}
