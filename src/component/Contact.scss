@@ -68,7 +68,7 @@ text-align: center;
 line-height: 120px;
 }
 //extra large
-font-family: 'Orbitron', sans-serif;
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 100px;
@@ -122,4 +122,19 @@ font-size: 50px;
 text-align: center;
 }
 
+.contact-list-cont {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
 
+
+.email-text {
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+color: var(--color-text);
+
+}
