@@ -1,6 +1,6 @@
 import "./Hero.scss";
-import { BsArrowDown } from 'react-icons/bs';
-
+import { MdWavingHand } from 'react-icons/md';
+import { FaSmileWink } from 'react-icons/fa';
 
 
 
@@ -10,15 +10,16 @@ function Hero() {
 <div className=''>  
     <div className="container">
         <div className='hero-row'>
-                 <h1 
-                     className='hero-h1'>Front-end Developer.
-                 </h1>
+              <div className='h-cont'>
+                 <h1  className='hero-h1'>Front-END</h1>
+                
+              </div>
+                 
+              
                  <div className='p_cont'>
-                    <p className='hero-p'> I like to craft solid and scalable frontend products with great user experience.
-                    I like to craft solid and scalable frontend products with great user experience.
+                    <p className='hero-p'> Hello <MdWavingHand  />, I am Oladunni Waters, a frontend developer who is passionate about creating interactive and scalable frontend products that deliver exceptional user experiences. Thank you for visiting, and I hope you find something that interests you.<FaSmileWink />
                     </p>
-                   <p className='hero_empty'><BsArrowDown className='arrow_down'/></p>
-
+                    <h1 className='hero-h1-1'>DEV</h1>
                 </div>
         </div>
       </div>  
