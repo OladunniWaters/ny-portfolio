@@ -120,7 +120,15 @@ grid-template-columns: repeat(2, 1fr);
 
 
 .project-text-cont {
- padding: 0px 40px;
+ padding: 0px 35px;
+}
+
+.project-header {
+  font-family: 'Anton', sans-serif;
+}
+
+.project-desc {
+  color: #d6d6d6;
 }
 
 .project-link-cont {
@@ -130,7 +138,8 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 .project-link {
-  text-decoration: none;
+font-family: 'Space Mono', monospace;
+color: #d6d6d6;
 }
 
 
