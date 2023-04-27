@@ -17,9 +17,11 @@ function Hero() {
                  
               
                  <div className='p_cont'>
-                    <p className='hero-p'> Hello <MdWavingHand  />, I am Oladunni Waters, a frontend developer who is passionate about creating interactive and scalable frontend products that deliver exceptional user experiences. Thank you for visiting, and I hope you find something that interests you.<FaSmileWink />
+                    <p className='hero-p'> Hello, I'm Oladunni Waters, a frontend developer who is passionate about creating interactive and scalable frontend products that deliver exceptional user experiences. Thank you for visiting, and I hope you find something that interests you.
                     </p>
-                    <h1 className='hero-h1-1'>DEV</h1>
+                    <div className='clipped'>
+                      <h1 className='hero-h1-1 noisy'>DEV</h1>
+                    </div>
                 </div>
         </div>
       </div>  
