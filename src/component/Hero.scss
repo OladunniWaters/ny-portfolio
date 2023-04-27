@@ -62,6 +62,10 @@ justify-content: center;
 }
 
 
+.emoji-icon {
+  color: #A16AE8;
+}
+
 
 .hero-h1 {
   //small
@@ -117,10 +121,25 @@ font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 3rem;
-color: var(--color-text);
+color: #e8e8e8;//var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
 transform: scale(7, 5);
+
+  background-color: #ffffff;
+
+background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#000 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #000 2px, #ffffff 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+
+
+
+
 }
 
 .code-slash {
@@ -231,13 +250,33 @@ font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 3rem;
-color: var(--color-text);
+//color: #3500D3;//var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
 transform: scale(7, 5);
 text-align: left;
 margin-right: 190px;
+overflow: hidden;
+
+  background-color: #3500D3;
+background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
+  background-size: 5px  100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+
+
 }
+
+.clipped {
+ 
+}
+
+
+
 
 .hero-p {
   //small
@@ -301,8 +340,5 @@ margin-bottom: 80px;
 text-align: left;
 width: 700px;
 }
-
-
-
 
 

@@ -72,7 +72,7 @@ font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 100px;
-color: var(--color-text);
+color: rgba(232,232,232,255);//var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
 text-align: left;
@@ -95,7 +95,7 @@ text-align: left;
 }
 //extra large
 border-radius: 50%;
-border: 2px solid #fff;
+border: 2px solid #3500D3;
 width: 100px;
 height: 100px;
 display: flex;
@@ -120,6 +120,7 @@ align-items: center;
 //extra large
 font-size: 50px;
 text-align: center;
+color: #e8e8e8 ;
 }
 
 .contact-list-cont {
