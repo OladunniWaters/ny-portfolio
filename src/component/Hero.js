@@ -1,6 +1,4 @@
 import "./Hero.scss";
-import { MdWavingHand } from 'react-icons/md';
-import { FaSmileWink } from 'react-icons/fa';
 
 
 

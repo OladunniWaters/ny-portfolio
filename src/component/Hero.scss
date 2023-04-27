@@ -135,12 +135,23 @@ background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, t
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-
-
-
-
-
+  
+  animation: gradient 15s ease infinite;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 
 .code-slash {
   //small
@@ -267,8 +278,19 @@ background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   
+  animation: gradient 15s ease infinite;
+}
 
-
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .clipped {
