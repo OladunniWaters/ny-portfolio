@@ -95,6 +95,7 @@ text-align: left;
   position: absolute;
   right: 0px;
   top: -0px;
+  animation: upskill 5s infinite alternate;
 }
 
 .skill-2 {
@@ -123,4 +124,27 @@ text-align: left;
   position: absolute;
   right: 0px;
   top: 0px;
+  animation: downskill 5s infinite alternate;
 }
+
+@keyframes upskill {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(0, -150px);
+  }
+}
+
+
+@keyframes downskill {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(0, 150px);
+  }
+}
+
+
+
