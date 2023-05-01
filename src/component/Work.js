@@ -6,7 +6,7 @@ function Work() {
 
   return (
     <div>
-        <h1 className='work-h1'>Projects</h1>
+        <h1 className='work-h1'>Portfolio</h1>
         <div className='projects-container'>
             <div className='project-one'>
                <div>

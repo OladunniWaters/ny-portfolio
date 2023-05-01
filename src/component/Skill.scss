@@ -1,58 +1,59 @@
-
 .skills {
-  margin-top: 10px;
-  margin-bottom: 200px;
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+//extra large
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 
 
 .skill-h1 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-family: 'Orbitron', sans-serif;
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
 color: var(--color-text);
-margin-bottom: 20px;
+margin-bottom: 40px;
 text-transform: uppercase;
 text-align: center;
-line-height: 40px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-font-family: 'Orbitron', sans-serif;
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 60px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
+font-size: 100px;
 color: var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
 text-align: center;
-line-height: 80px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-font-family: 'Orbitron', sans-serif;
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 80px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
+font-size: 100px;
 color: var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
 text-align: center;
-line-height: 120px;
 }
 //extra large
 font-family: 'Anton', sans-serif;
@@ -66,23 +67,60 @@ text-align: left;
 }
 
 
+
 .skill-cont {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  display: flex;
+  gap: 0px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  display: flex;
+  gap: 180px;
+}
+//extra large
   display: flex;
   gap: 180px;
 }
 
+
+
 .skill {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: var(--color-text);
+margin-bottom: 20px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+color: var(--color-text);
+margin-bottom: 20px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+color: var(--color-text);
+margin-bottom: 20px;
 }
 //extra large
 font-family: 'Space Mono', monospace;

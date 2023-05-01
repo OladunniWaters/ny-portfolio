@@ -1,6 +1,6 @@
 import './Home.scss';
 import Hero from './Hero';
-import Skills from './Skills';
+import Skill from './Skill';
 import Work from './Work';
 import Contact from './Contact';
 
@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className='home'>
       <Hero />
-      <Skills />
+      <Skill />
       <Work /> 
       <Contact />
     </div>
