@@ -5,7 +5,7 @@ import img1 from '../assets/eb8ae42768ae53944c88a3823070a739.webp'
 function Work() {
 
   return (
-    <div className='container'>
+    <div>
         <h1 className='work-h1'>Projects</h1>
         <div className='projects-container'>
             <div className='project-one'>
