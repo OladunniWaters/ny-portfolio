@@ -7,7 +7,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
-margin-top: 15px;
+margin-top: 80px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -15,7 +15,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: center;
-margin-top: 50px;
+margin-top: 100px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -23,7 +23,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 50px;
+margin-top: 130px;
 }
 //extra large
 margin-top: 200px;
@@ -62,59 +62,70 @@ justify-content: center;
 }
 
 
-.emoji-icon {
-  color: #A16AE8;
-}
-
 
 .hero-h1 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-family: 'Orbitron', sans-serif;
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 30px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
-color: var(--color-text);
-margin-bottom: 20px;
+font-size: 1.5rem;
+color: #e8e8e8;//var(--color-text);
+margin-bottom: 0px;
 text-transform: uppercase;
-text-align: center;
-line-height: 40px;
+transform: scale(3, 2);
+background-color: #ffffff;
+background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#000 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #000 2px, #ffffff 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  animation: gradient 15s ease infinite;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-font-family: 'Orbitron', sans-serif;
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 60px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
-color: var(--color-text);
+font-size: 3rem;
+color: #e8e8e8;//var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
-text-align: center;
-line-height: 80px;
+transform: scale(3, 3);
+background-color: #ffffff;
+background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#000 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #000 2px, #ffffff 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  animation: gradient 15s ease infinite;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
-font-family: 'Orbitron', sans-serif;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 80px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
-color: var(--color-text);
+font-size: 3rem;
+color: #e8e8e8;//var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
-text-align: center;
-line-height: 120px;
+transform: scale(4, 4);
+background-color: #ffffff;
+background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#000 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #000 2px, #ffffff 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  animation: gradient 15s ease infinite;
 }
 //extra large
 font-family: 'Anton', sans-serif;
@@ -125,9 +136,7 @@ color: #e8e8e8;//var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
 transform: scale(7, 5);
-
-  background-color: #ffffff;
-
+background-color: #ffffff;
 background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#000 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #000 2px, #ffffff 2px) -1px 0;
   background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
   background-repeat: repeat;
@@ -153,49 +162,34 @@ background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, t
 
 
 
-.code-slash {
-  //small
-@media screen and (min-width: 320px) and (max-width: 576px) {
-
-}
-// medium
-@media screen and (min-width: 577px) and (max-width: 768px) {
-
-}
-//large
-@media screen and (min-width: 769px) and (max-width: 992px) {
-
-}
-//extra large
-font-weight: bold;
-font-size: 2rem;
-transform: scale(10, 8);
-margin-bottom: 40px;
-margin-right: 200px;
-}
-
 
 .p_cont {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
 display: flex;
-flex-direction: row;
+flex-direction: column-reverse;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
+margin-top: 20px;
+gap: 0px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 display: flex;
-flex-direction: row;
+flex-direction: column-reverse;
 align-items: center;
 justify-content: space-between;
+margin-top: 50px;
+gap: 0px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-between;
+margin-top: 50px;
+gap: 90px;
 }
 //extra large
 display: flex;
@@ -203,73 +197,94 @@ flex-direction: row;
 align-items: center;
 justify-content: space-between;
 margin-top: 50px;
+gap: 350px;
 }
-
 
 
 .hero-h1-1 {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-family: 'Orbitron', sans-serif;
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 30px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
-color: var(--color-text);
-margin-bottom: 20px;
+font-size: 1.5rem;
+margin-top: 20px;
+margin-bottom: 40px;
 text-transform: uppercase;
+transform: scale(3, 2);
 text-align: center;
-line-height: 40px;
+margin-right: 0px;
+overflow: hidden;
+background-color: #3500D3;
+background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
+  background-size: 5px  100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  animation: gradient 15s ease infinite;
+  
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-font-family: 'Orbitron', sans-serif;
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 60px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
-color: var(--color-text);
+font-size: 3rem;
 margin-bottom: 40px;
 text-transform: uppercase;
-text-align: center;
-line-height: 80px;
+transform: scale(3, 3);
+text-align: left;
+margin-right: 0px;
+overflow: hidden;
+background-color: #3500D3;
+background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
+  background-size: 5px  100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  animation: gradient 15s ease infinite;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
-font-family: 'Orbitron', sans-serif;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 80px;
-line-height: 90%;
-display: flex;
-align-items: center;
-justify-content: center;
-color: var(--color-text);
+font-size: 3rem;
 margin-bottom: 40px;
 text-transform: uppercase;
-text-align: center;
-line-height: 120px;
+transform: scale(4, 4);
+text-align: left;
+margin-right: 100px;
+overflow: hidden;
+background-color: #3500D3;
+background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
+  background-size: 5px  100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  animation: gradient 15s ease infinite;
 }
 //extra large
 font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 3rem;
-//color: #3500D3;//var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
 transform: scale(7, 5);
 text-align: left;
 margin-right: 190px;
 overflow: hidden;
-
-  background-color: #3500D3;
+background-color: #3500D3;
 background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
   background-size: 5px  100%;
   background-repeat: repeat;
@@ -293,11 +308,6 @@ background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
 	}
 }
 
-.clipped {
- 
-}
-
-
 
 
 .hero-p {
@@ -308,14 +318,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
 color: var(--color-text);
-width: 250px;
-margin-top: -2.5px;
-margin-bottom: 40px;
+margin-top: 10px;
+margin-bottom: 30px;
+text-align: center;
+width: 350px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -323,31 +330,25 @@ font-family: 'Space Mono', monospace;
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
-width: 550px;
-height: 100px;
-line-height: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
+line-height: 40px;
 color: var(--color-text);
-width: 450px;
-margin-top: -10px;
-margin-bottom: 40px;
+margin-top: 40px;
+margin-bottom: 80px;
+text-align: center;
+width: 700px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 font-family: 'Space Mono', monospace;
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
+font-size: 18px;
 line-height: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
 color: var(--color-text);
-width: 450px;
-margin-top: 20px;
-margin-bottom: 60px;
+margin-top: 30px;
+margin-bottom: 80px;
+text-align: left;
+width: 500px;
 }
 //extra large
 font-family: 'Space Mono', monospace;
@@ -356,7 +357,6 @@ font-weight: 400;
 font-size: 25px;
 line-height: 40px;
 color: var(--color-text);
-width: 600px;
 margin-top: 40px;
 margin-bottom: 80px;
 text-align: left;

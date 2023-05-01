@@ -11,9 +11,9 @@ function Home() {
   return (
     <div className='home'>
       <Hero />
-      <Skills className='section'/>
-      <Work className='section'/>
-      <Contact className='section'/>
+      <Skills />
+      <Work /> 
+      <Contact />
     </div>
   );
 }
