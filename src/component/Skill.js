@@ -1,6 +1,6 @@
 import "./Skill.scss";
-//import { FaBeer } from 'react-icons/fa';
-//RxCube BiCubeAlt
+import { BiCubeAlt } from 'react-icons/bi';
+
 
 function Skills() {
   return (
@@ -8,24 +8,21 @@ function Skills() {
        <h1 className='skill-h1'>SKILLS</h1>    
        <div className='skill-cont'>
           <div className='list-cont'>
-             <li className='skill'>HTML</li>
-             <li className='skill'>CSS</li>
-             <li className='skill'>Javascript</li>
-             <li className='skill'>React.js</li>
+             <p className='skill'><BiCubeAlt className='cube'/>HTML</p>
+             <p className='skill'><BiCubeAlt className='cube'/>CSS</p>
+             <p className='skill'><BiCubeAlt className='cube'/>Javascript</p>
            </div>
            
           <div className='list-cont'>
-             <li className='skill'>SASS/SCSS</li>
-             <li className='skill'>Tailwind CSS</li>
-             <li className='skill' >Redux Toolkit</li>
-             <li className='skill'>React Native</li>
+             <p className='skill'><BiCubeAlt className='cube'/>React.js</p>
+             <p className='skill'><BiCubeAlt className='cube'/>SASS/SCSS</p>
+             <p className='skill'><BiCubeAlt className='cube'/>Tailwind CSS</p>
            </div>
            
             <div className='list-cont'>
-             <li className='skill'>Next.js</li>
-             <li className='skill' >Typescript</li>
-             <li className='skill'>MUI</li>
-             <li className='skill'>GIT</li>
+             <p className='skill' ><BiCubeAlt className='cube'/>Redux Toolkit</p>
+             <p className='skill'><BiCubeAlt className='cube'/>MUI</p>
+             <p className='skill'><BiCubeAlt className='cube'/>GIT</p>
            </div>
        </div>
     </div>   

@@ -86,6 +86,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 20px;
 color: var(--color-paragraph);
+transition: color 0.5s ease ;
 }
 
 
@@ -126,6 +127,7 @@ font-size: 20px;
 color: var(--color-paragraph);
 text-decoration: none;
 margin-right: 30px;
+transition: color 0.5s ease ;
 }
 
 
@@ -161,6 +163,17 @@ font-weight: bold;
 font-size: 20px;
 color: var(--color-paragraph);
 text-decoration: none;
+transition: color 0.5s ease ;
 }
 
+.nav-link-1:hover {
+  color: #3500D3;
+}
 
+.nav-link-2:hover {
+  color: #3500D3;
+}
+
+.navbar-brand:hover {
+  color: #3500D3;
+}
