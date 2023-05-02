@@ -120,6 +120,7 @@ gap: 80px;
   overflow: hidden;
   position: relative;
   margin-bottom: 50px;
+  border: 2px solid #fff;
 }
 
 
@@ -130,7 +131,7 @@ gap: 80px;
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg,transparent,rgba(0,0,0,.85) 95%);
+  background: linear-gradient(180deg,transparent,rgba(0,0,0,.95) 60%);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -165,7 +166,7 @@ gap: 80px;
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg,transparent,rgba(0,0,0,.85) 95%);
+  background: linear-gradient(180deg,transparent,rgba(0,0,0,.85) 60%);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -315,6 +316,22 @@ color: #d6d6d6;
 }
 
 
+.project-img {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+width: 350px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+width: 600px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+width: 750px;
+}
+//extra large
+width: 600px;
+}
 
 
 

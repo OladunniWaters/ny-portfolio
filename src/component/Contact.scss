@@ -90,24 +90,37 @@ text-align: left;
 font-size: 25px;
 text-align: center;
 color: var(--color-text);
+margin-right: 10px;
+transition: color 0.5s ease ;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 font-size: 50px;
 text-align: center;
 color: var(--color-text);
+margin-right: 10px;
+transition: color 0.5s ease ;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 font-size: 50px;
 text-align: center;
 color: var(--color-text);
+margin-right: 10px;
+transition: color 0.5s ease ;
 }
 //extra large
 font-size: 50px;
 text-align: center;
 color: var(--color-text);
+margin-right: 10px;
+transition: color 0.5s ease ;
 }
+
+.contact-icon:hover {
+  color: #3500D3;
+}
+
 
 
 .contact-list-cont {
