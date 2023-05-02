@@ -2,21 +2,21 @@
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
 margin-top: 50px;
-margin-bottom: 50px;
+margin-bottom: 100px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-margin-top: 100px;
-margin-bottom: 100px;
+margin-top: 0px;
+margin-bottom: 150px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-margin-top: 100px;
-margin-bottom: 100px;
+margin-top: 0px;
+margin-bottom: 150px;
 }
 //extra large
 margin-top: 0px;
-margin-bottom: 100px;
+margin-bottom: 150px;
 }
 
 
@@ -38,22 +38,22 @@ text-align: center;
 font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 100px;
+font-size: 60px;
 color: var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
-text-align: center;
+text-align: left;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 100px;
+font-size: 80px;
 color: var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
-text-align: center;
+text-align: left;
 }
 //extra large
 font-family: 'Anton', sans-serif;
@@ -73,7 +73,7 @@ text-align: left;
 font-family: 'Space Mono', monospace;
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
+font-size: 18px;
 color: var(--color-text);
 margin-bottom: 20px;
 }
@@ -82,7 +82,7 @@ margin-bottom: 20px;
 font-family: 'Space Mono', monospace;
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 30px;
 color: var(--color-text);
 margin-bottom: 20px;
 }
@@ -112,27 +112,26 @@ align-items: center;
 .skill-cont  {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 2rem;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-display: flex;
-justify-content: center;
-align-items: center;
+display: grid;  
+grid-template-columns: repeat(3, 1fr); 
+gap: 0.5rem;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-display: flex;
-justify-content: center;
-align-items: center;; 
+display: grid;  
+grid-template-columns: repeat(3, 1fr); 
+gap: 3rem;
 }
 //extra large
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 150px;
+display: grid;  
+grid-template-columns: repeat(3, 1fr); 
+gap: 13rem;
 }
 
 

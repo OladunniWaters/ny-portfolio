@@ -17,14 +17,16 @@ align-items: center;
 flex-direction: column;
 justify-content: center;
 margin-top: 100px;
+margin-bottom: 40px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 130px;
+margin-bottom: 40px;
 }
 //extra large
 margin-top: 200px;
@@ -168,7 +170,7 @@ background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, t
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
 display: flex;
-flex-direction: column-reverse;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 20px;
@@ -250,6 +252,7 @@ background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
   -moz-text-fill-color: transparent;
   
   animation: gradient 15s ease infinite;
+  display: none;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -317,7 +320,7 @@ background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
 font-family: 'Space Mono', monospace;
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
+font-size: 16px;
 line-height: 20px;
 color: var(--color-text);
 margin-top: 10px;
