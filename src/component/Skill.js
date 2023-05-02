@@ -16,11 +16,11 @@ function Skills() {
           <div className='list-cont'>
              <p className='skill'><BiCubeAlt className='cube'/>React.js</p>
              <p className='skill'><BiCubeAlt className='cube'/>SASS/SCSS</p>
-             <p className='skill'><BiCubeAlt className='cube'/>Tailwind CSS</p>
+             <p className='skill'><BiCubeAlt className='cube'/>Tailwind</p>
            </div>
            
             <div className='list-cont'>
-             <p className='skill' ><BiCubeAlt className='cube'/>Redux Toolkit</p>
+             <p className='skill' ><BiCubeAlt className='cube'/>Redux</p>
              <p className='skill'><BiCubeAlt className='cube'/>MUI</p>
              <p className='skill'><BiCubeAlt className='cube'/>GIT</p>
            </div>
