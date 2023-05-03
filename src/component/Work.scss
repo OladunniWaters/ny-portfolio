@@ -49,16 +49,7 @@ color: var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
 text-align: left;
-opacity: 0;
-animation: slideUp ease forwards 1s;
 }
-
-
-@keyframes slideUp {
-  0% {transform: translateY(0);}
-  100% {transform: translateY(-40px);opacity: 1;}
-}
-
 
 
 
@@ -125,24 +116,7 @@ gap: 80px;
   position: relative;
   margin-bottom: 50px;
   border: 2px solid #fff;
-  //opacity: 0;
- // animation: slide-right 2s ease forwards 3s ;
 }
-
-
-@keyframes slide-right {
-  from {
-    margin-left: -100%;
-    opacity: 0;
-  }
-  to {
-    margin-left: 0%;
-    opacity: 1;
-  }
-}
-
-
-
 
 
 .project-overlay {

@@ -4,6 +4,7 @@
 @media screen and (min-width: 320px) and (max-width: 576px) {
   display: flex;
   justify-content: space-between;
+  padding-left: 20px;
   padding-top: 30px;
 }
 // medium
@@ -11,17 +12,20 @@
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  padding-left: 0px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  padding-left: 0px;
 }
 //extra large
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  padding-left: 0px;
 }
 
 
@@ -55,7 +59,7 @@ height: 20px;
 font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 16px;
 color: var(--color-paragraph);
 }
 // medium
