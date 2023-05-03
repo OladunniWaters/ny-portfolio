@@ -32,7 +32,7 @@ function Work() {
                   <div className='project-body'>
                     <div className='project-text-cont'>
                        <h4 className='project-header'>Waters Store</h4>
-                       <p className='project-desc'>Navigation tool that significantly increases efficiency by reducing the number of clicks it takes you to navaigate he web
+                       <p className='project-desc'>Ecommerce web app built with React, Sass, Javascript, Redux Toolkit, and Firebase. It allows users to browse and purchase products while listening to music, and add products to cart.
                        </p>
                      </div>  
                      <ul className='project-link-cont'>
@@ -50,8 +50,8 @@ function Work() {
                <div className='project-overlay'>
                   <div className='project-body'>
                     <div className='project-text-cont'>
-                       <h4 className='project-header'>Movie Trailer</h4>
-                       <p className='project-desc'>Navigation tool that significantly increases efficiency by reducing the number of clicks it takes you to navaigate he web
+                       <h4 className='project-header'>Movie Web App</h4>
+                       <p className='project-desc'>Movie web app built with React, TMDB API, Javascript, Sass and React Router. It allows users to browse movies via category and view movie details with movie official trailer.
                        </p>
                      </div>  
                       <ul className='project-link-cont'>
@@ -69,8 +69,8 @@ function Work() {
                <div className='project-overlay'>
                   <div className='project-body'>
                     <div className='project-text-cont'>
-                       <h4 className='project-header'>Recipe WebApp</h4>
-                       <p className='project-desc'>Navigation tool that significantly increases efficiency by reducing the number of clicks it takes you to navaigate he web
+                       <h4 className='project-header'>Recipe Web App</h4>
+                       <p className='project-desc'>Recipe web app built with Javascript, React, Redux Toolkit, Sass, React Router, and MealDB API. It allows users to search for recipes, view recipe details, and save recipes to favorite.
                        </p>
                      </div>  
                    <ul className='project-link-cont'>
@@ -89,11 +89,11 @@ function Work() {
                   <div className='project-body'>
                     <div className='project-text-cont'>
                        <h4 className='project-header'>My Portfolio</h4>
-                       <p className='project-desc'>Navigation tool that significantly increases efficiency by reducing the number of clicks it takes you to navaigate he web
+                       <p className='project-desc'>Personal portfolio showcasing my skills and selected projects I built with said skills.
                        </p>
                      </div>  
                    <ul className='project-link-cont'>
-                        <li className='project-list'><a href="https://waters-chart-dashboard.netlify.app/Dashboard"  target="_blank" rel="noreferrer" className='project-link'><FaLessThan />Website<FaGreaterThan /></a></li>
+                        <li className='project-list'><a href="https://oladunniwaters.netlify.app/"  target="_blank" rel="noreferrer" className='project-link'><FaLessThan />Website<FaGreaterThan /></a></li>
                      </ul>
                   </div>
                </div>
@@ -108,11 +108,11 @@ function Work() {
                   <div className='project-body'>
                     <div className='project-text-cont'>
                        <h4 className='project-header'>Chart-Dashboard</h4>
-                       <p className='project-desc'>Navigation tool that significantly increases efficiency by reducing the number of clicks it takes you to navaigate he web
+                       <p className='project-desc'>This is a crypto dashboard web app built with  Coinstats API , React, Javascript, Material UI, Sass and React Router. It allows users to view real-time prices and trends of cryptocurrencies.
                        </p>
                      </div>  
-                    <ul className='project-link-cont'>
-                        <li className='project-list'><a href="https://waters-movie.netlify.app/" target="_blank" rel="noreferrer" className='project-link'><FaLessThan />Website<FaGreaterThan /></a></li>
+                   <ul className='project-link-cont'>
+                        <li className='project-list'><a href="https://waters-chart-dashboard.netlify.app/Dashboard"  target="_blank" rel="noreferrer" className='project-link'><FaLessThan />Website<FaGreaterThan /></a></li>
                      </ul>
                   </div>
                </div>
