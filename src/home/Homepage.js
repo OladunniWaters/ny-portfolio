@@ -1,15 +1,15 @@
 import "./Homepage.scss";
-import Hero from '../components/Hero';
-import Portfolio from '../components/Portfolio';
-import Skills from '../components/Skills';
-import Contact from '../components/ContactMe';
+import Hero from '../component/Hero';
+import Work from '../component/Work';
+import Skill from '../component/Skill';
+import Contact from '../component/Contact';
 
 function Homepage() {
   return (
     <div className="Homepage">
        <Hero />
-       <Skills />       
-       <Portfolio />
+       <Skill />       
+       <Work />
        <Contact />
     </div>
   );
