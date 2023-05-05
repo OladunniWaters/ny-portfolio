@@ -29,6 +29,10 @@ margin-top: 130px;
 margin-bottom: 40px;
 }
 //extra large
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 margin-top: 200px;
 margin-bottom: 100px;
 background: #000;
@@ -134,7 +138,7 @@ background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, t
 font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 3rem;
+font-size: 2.6rem;
 color: #e8e8e8;//var(--color-text);
 margin-bottom: 40px;
 text-transform: uppercase;
@@ -200,7 +204,7 @@ flex-direction: row;
 align-items: center;
 justify-content: space-between;
 margin-top: 50px;
-gap: 350px;
+gap: 200px;
 }
 
 
@@ -281,7 +285,7 @@ background-image: radial-gradient(#ffffff 0.25px, #3500D3 0.25px);
 font-family: 'Anton', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 3rem;
+font-size: 2.6rem;
 margin-bottom: 40px;
 text-transform: uppercase;
 transform: scale(7, 5);
