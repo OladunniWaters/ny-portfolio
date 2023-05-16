@@ -25,7 +25,7 @@ function Hero() {
               
                  <div className='p_cont'>
                    <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-delay="1500">
-                      <p className='hero-p'> Hello, I'm Oladunni Waters, a frontend developer who is passionate about creating interactive and scalable frontend products that deliver exceptional user experiences. Thank you for visiting, and I hope you find something that interests you.
+                      <p className='hero-p'> Hello <span className="wave">👋</span>, I'm Oladunni Waters, a frontend developer that is passionate about creating interactive and scalable frontend products that deliver exceptional user experiences. Thank you for visiting, and am currently open for remote jobs and freelance works 😊.
                       </p>
                       </div>
                     <div data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000" data-aos-delay="1000">
